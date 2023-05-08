@@ -4,7 +4,8 @@
 ## nodeJS
  - 다운로드 및 설치
  - 서버 생성 (low level)
- ```//nodeJS 작업 (row level)
+ ```javaScript
+ //nodeJS 작업 (row level)
 const http = required('http');
 
 function handleRequest(request, response) {
