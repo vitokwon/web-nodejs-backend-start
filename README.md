@@ -26,21 +26,21 @@ server.listen(3000); // 3000은 로컬개발용
 
 ## express & nodemon
 - express 설치 (nodeJS 사용 편의성 향상)
-    1) npm init 
-    2) package.json 추가됨
-    3) npm install express // npm 홈페이지에 많은 패키지 있음
-    4) node_modules 폴더 생성됨 // 모든 패키지가 여기에 저장
-    5) npm install // 타 프로젝트 받았을 때 필요 패키지(package.json명시) 다운가능
+1. npm init 
+2. package.json 추가됨
+3. npm install express // npm 홈페이지에 많은 패키지 있음
+4. node_modules 폴더 생성됨 // 모든 패키지가 여기에 저장
+5. npm install // 타 프로젝트 받았을 때 필요 패키지(package.json명시) 다운가능
 - nodemon 설치(서버자동재시작)
 ```javascript
-    1) npm install nodemon
-    2) package.json에서 script에 내용 추가
-    3) "scripts": {
-        "start": "nodemon app.js"
-        },
+1. npm install nodemon
+2. package.json에서 script에 내용 추가
+3. "scripts": {
+    "start": "nodemon app.js"
+    },
 ```
 
-### express 작업
+## express 작업
 - 필요 객체 및 form 생성
 ```javascript
 const fs = require("fs"); // nodeJS 내장 패키지 (file system)
